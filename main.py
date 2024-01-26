@@ -1,6 +1,9 @@
-from pyamaze import maze
-m=maze(15,15)
-m.CreateMaze()
+import tkinter as tk
+from tkinter import ttk
 
-m.run()
-print(m.maze_map)
+window = tk.Tk()
+window.title("My First GUI Program")
+window.minsize(width=500, height=300)
+window.mainloop()
+
+
